@@ -1,0 +1,10 @@
+// 没起作用
+import * as axios from 'axios'
+
+declare module 'axios' {
+  interface AxiosInstance {
+    (config: AxiosRequestConfig): Promise<any>
+  }
+}
+
+export default 'axios'

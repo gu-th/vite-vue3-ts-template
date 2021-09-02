@@ -7,9 +7,9 @@
  * @Description  : 公共导航api
  */
 
+import { sortDto } from '../interface/dto/common.interface';
+import { navDto } from '../interface/dto/nav.interface';
 import $http from '../request/http';
-import { sortDto } from '../interface/common.interface';
-import { navDto } from '../interface/nav.interface';
 
 const BASE_URL = 'common';
 

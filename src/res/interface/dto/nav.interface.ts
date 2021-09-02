@@ -16,20 +16,3 @@ export interface navDto extends AxiosRequestConfig {
   bz: string;
   xssx: number;
 }
-
-export interface groupDto extends AxiosRequestConfig {
-  bh?: string;
-  mc: string;
-  bz: string;
-  xssx: number;
-}
-
-export interface groupNavDto extends AxiosRequestConfig {
-  bh?: string;
-  lj: string;
-  mc: string;
-  fzBh: string;
-  // fzMc: string;
-  bz: string;
-  xssx: number;
-}

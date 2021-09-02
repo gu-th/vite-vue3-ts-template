@@ -6,36 +6,33 @@ vite-vue3-ts-template
 ├─ .gitignore
 ├─ axios.d.ts
 ├─ d.ts
-├─ index.html
+├─ index.html                   根节点html
 ├─ package.json
 ├─ public
 │  └─ favicon.ico
 ├─ README.md
 ├─ src                 
-│  ├─ App.vue                   根节点
+│  ├─ App.vue                   根Vue
 │  ├─ assets
 │  │  └─ logo.png
 │  ├─ components                组件目录
 │  │  ├─ common-nav.vue
 │  ├─ main.ts                   入口文件
 │  ├─ res                       资源目录
-│  │  ├─ api                    请求api
+│  │  ├─ api                    请求接口api
 │  │  │  ├─ commonNavApi.ts
-│  │  │  ├─ groupApi.ts
-│  │  │  └─ navGroupApi.ts
 │  │  ├─ constants               静态常量目录
-│  │  ├─ interface               接口目录
+│  │  ├─ interface               ts接口目录
 │  │  │  ├─ dto
 │  │  │  │  ├─ common.interface.ts
 │  │  │  │  └─ nav.interface.ts
-│  │  │  └─ vo
-│  │  │     └─ nav.interface.ts
 │  │  ├─ request                  请求封装 拦截
 │  │  │  └─ http.ts
 │  │  ├─ scss                     css目录
 │  │  │  ├─ common.scss
 │  │  │  └─ reset.css
 │  │  └─ utils                    工具函数目录
+|  |     └─utils.ts                              
 │  ├─ router                      路由目录
 │  │  └─ index.ts
 │  ├─ store                       store目录
